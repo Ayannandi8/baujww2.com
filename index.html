@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title> video gallery - Easy tutorial </title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+    <h1>How to make a video gallery</h1>
+    <div class="row">
+      <div class="col">
+        <div class="feature-img">
+         <img src="/pic1.png" width="100%">
+          <img src="/play.png" class="play-btn">
+    </div>
+    <div class="col">
+        <div class="small-img-row">
+          <div class="small-img">
+         <img src="/pic2.png" >
+         <img src="/play.png" class="play-btn">
+    </div>
+      <div class="cl">
+        <div class="small-img-row">
+          <div class="small-img">
+            <img src="/pic4.png" >
+            <img src="/play.png" class="play-btn">
+          </div>
+          
+            <div class="col">
+              <div class="small-img-row">
+                <div class="small-img">
+                  <img src="/pic3.png">
+                  <img src="/play.png" class="play-btn">
+                </div>
+    <p>p please don't know how many people<br> are in the morning</p>
+              </div>
+            </div>
+            </div>
+            </div>
+           <div class="video-player" id="video player">
+             <video width="100%" controls autoplay id="myvideo">
+               <source src="/WW2 - The Bombing of Germany [Real Footage in Colour](720P_HD).mp4" type="video/mp4">
+               </video>
+               <img src="/close.png" class="close-btn" onclick="stopvideo()">
+           </div>
+           <script>
+           var videoPlayer = document.getElementById("videoPlayer");
+           var myVideo = document.getElementById("myVideo");
+           function stopVideo () {
+           videoPlayer.style.display="none";
+           }
+          </script>
+         
+    
+    
+    
+    
+    
+    
+    
+ 
+  </body>
+</html>
+      
